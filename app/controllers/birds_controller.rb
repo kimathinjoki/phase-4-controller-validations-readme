@@ -41,6 +41,8 @@ class BirdsController < ApplicationController
 
   private
 
+  # private methods
+  
   def find_bird
     Bird.find(params[:id])
   end
